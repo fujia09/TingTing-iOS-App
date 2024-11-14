@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  TingTing
+
+  Created by fujia wang on 2021/12/23.
+  
+*/
+"Voice" = "Voice";
+"Tap to Speak" = "Tap to Speak";
+"Region" =  "Region";
+"Settings" = "Settings";
+"Cancel" = "Cancel";
+"Meeting" = "Meeting";
+"Add" = "Add";
+"Attendees" = "Attendees";
+"Meeting Info" = "Meeting Info";
+"Meeting Title" = "Meeting Title";
+"Color" = "Color";
+"New Attendee" = "New Attendee";
+"Start Meeting" = "Start Meeting";
+"Edit" = "Edit";
+"Done" = "Done";
+"Error" = "Error";
+"Please include at least one attendee" = "Please include at least one attendee";
+"Ok" = "Ok";
+"Meeting Log" = "Meeting Log";
+"Current Attendees: " = "Current Attendees: ";
+"Quick Flashcards" = "Quick Flashcards";
+"[Title is empty]" = "[Title is empty]";

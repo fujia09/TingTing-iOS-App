@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E14F90B2740F862002A4D39 /* TingTingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E14F90A2740F862002A4D39 /* TingTingApp.swift */; };
+		3E14F90D2740F862002A4D39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E14F90C2740F862002A4D39 /* ContentView.swift */; };
+		3E14F90F2740F865002A4D39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E14F90E2740F865002A4D39 /* Assets.xcassets */; };
+		3E14F9122740F865002A4D39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E14F9112740F865002A4D39 /* Preview Assets.xcassets */; };
+		3E14F91D2740F865002A4D39 /* TingTingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E14F91C2740F865002A4D39 /* TingTingTests.swift */; };
+		3E14F9282740F865002A4D39 /* TingTingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E14F9272740F865002A4D39 /* TingTingUITests.swift */; };
+		3E2402552741454800F24BF1 /* TabbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2402542741454800F24BF1 /* TabbarButton.swift */; };
+		3E308E0A274148C5001311CA /* TabbarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E308E09274148C5001311CA /* TabbarShape.swift */; };
+		3E308E0C27414C8B001311CA /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E308E0B27414C8B001311CA /* MeetingView.swift */; };
+		3E308E1227415788001311CA /* MeetingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E308E1027415788001311CA /* MeetingData.swift */; };
+		3E308E1327415788001311CA /* MeetingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E308E1127415788001311CA /* MeetingInfo.swift */; };
+		3E308E15274157A8001311CA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E308E14274157A8001311CA /* CardView.swift */; };
+		3E308E17274157C8001311CA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E308E16274157C8001311CA /* DetailView.swift */; };
+		3E308E1A2741591E001311CA /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E308E182741591E001311CA /* Color+Codable.swift */; };
+		3E308E1B2741591E001311CA /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E308E192741591E001311CA /* History.swift */; };
+		3E308E1E27415C96001311CA /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E308E1C27415C95001311CA /* EditView.swift */; };
+		3E3BD39E2753493C009EC506 /* SwiftSpeech in Frameworks */ = {isa = PBXBuildFile; productRef = 3E3BD39D2753493C009EC506 /* SwiftSpeech */; };
+		3E7633B8274E8BB300142B4A /* VoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7633B7274E8BB300142B4A /* VoiceView.swift */; };
+		3ECF5AD22753D7E900599C08 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF5AD12753D7E900599C08 /* ListView.swift */; };
+		5A41CEBC275119F10005FAB4 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41CEBB275119F10005FAB4 /* NoteView.swift */; };
+		5A41CEC027512B460005FAB4 /* NoteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41CEBF27512B460005FAB4 /* NoteItem.swift */; };
+		5A41CEC327512B610005FAB4 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41CEC227512B610005FAB4 /* NoteViewModel.swift */; };
+		5A41CEC627512B780005FAB4 /* ItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41CEC427512B780005FAB4 /* ItemsView.swift */; };
+		5A41CEC727512B780005FAB4 /* NoteItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41CEC527512B780005FAB4 /* NoteItemView.swift */; };
+		E5B02784277490A900C0FB9F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5B02786277490A900C0FB9F /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E14F9192740F865002A4D39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E14F8FF2740F862002A4D39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E14F9062740F862002A4D39;
+			remoteInfo = TingTing;
+		};
+		3E14F9242740F865002A4D39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E14F8FF2740F862002A4D39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E14F9062740F862002A4D39;
+			remoteInfo = TingTing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E14F9072740F862002A4D39 /* TingTing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TingTing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E14F90A2740F862002A4D39 /* TingTingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TingTingApp.swift; sourceTree = "<group>"; };
+		3E14F90C2740F862002A4D39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3E14F90E2740F865002A4D39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E14F9112740F865002A4D39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E14F9132740F865002A4D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E14F9182740F865002A4D39 /* TingTingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TingTingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E14F91C2740F865002A4D39 /* TingTingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TingTingTests.swift; sourceTree = "<group>"; };
+		3E14F91E2740F865002A4D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E14F9232740F865002A4D39 /* TingTingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TingTingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E14F9272740F865002A4D39 /* TingTingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TingTingUITests.swift; sourceTree = "<group>"; };
+		3E14F9292740F865002A4D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2402542741454800F24BF1 /* TabbarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarButton.swift; sourceTree = "<group>"; };
+		3E308E09274148C5001311CA /* TabbarShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarShape.swift; sourceTree = "<group>"; };
+		3E308E0B27414C8B001311CA /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		3E308E1027415788001311CA /* MeetingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingData.swift; sourceTree = "<group>"; };
+		3E308E1127415788001311CA /* MeetingInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingInfo.swift; sourceTree = "<group>"; };
+		3E308E14274157A8001311CA /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3E308E16274157C8001311CA /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		3E308E182741591E001311CA /* Color+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
+		3E308E192741591E001311CA /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		3E308E1C27415C95001311CA /* EditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		3E7633B7274E8BB300142B4A /* VoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceView.swift; sourceTree = "<group>"; };
+		3ECF5AD12753D7E900599C08 /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		5A41CEBB275119F10005FAB4 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		5A41CEBF27512B460005FAB4 /* NoteItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteItem.swift; sourceTree = "<group>"; };
+		5A41CEC227512B610005FAB4 /* NoteViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
+		5A41CEC427512B780005FAB4 /* ItemsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsView.swift; sourceTree = "<group>"; };
+		5A41CEC527512B780005FAB4 /* NoteItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteItemView.swift; sourceTree = "<group>"; };
+		E5B02785277490A900C0FB9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E5B02787277490C100C0FB9F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E14F9042740F862002A4D39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3BD39E2753493C009EC506 /* SwiftSpeech in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E14F9152740F865002A4D39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E14F9202740F865002A4D39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E14F8FE2740F862002A4D39 = {
+			isa = PBXGroup;
+			children = (
+				E5B02786277490A900C0FB9F /* Localizable.strings */,
+				3E14F9092740F862002A4D39 /* TingTing */,
+				3E14F91B2740F865002A4D39 /* TingTingTests */,
+				3E14F9262740F865002A4D39 /* TingTingUITests */,
+				3E14F9082740F862002A4D39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E14F9082740F862002A4D39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E14F9072740F862002A4D39 /* TingTing.app */,
+				3E14F9182740F865002A4D39 /* TingTingTests.xctest */,
+				3E14F9232740F865002A4D39 /* TingTingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E14F9092740F862002A4D39 /* TingTing */ = {
+			isa = PBXGroup;
+			children = (
+				5A41CEC127512B580005FAB4 /* ViewModel */,
+				3E308E0D2741574D001311CA /* Model */,
+				3E14F9352741091F002A4D39 /* View */,
+				3E14F90A2740F862002A4D39 /* TingTingApp.swift */,
+				3E14F90C2740F862002A4D39 /* ContentView.swift */,
+				3E14F90E2740F865002A4D39 /* Assets.xcassets */,
+				3E14F9132740F865002A4D39 /* Info.plist */,
+				3E14F9102740F865002A4D39 /* Preview Content */,
+			);
+			path = TingTing;
+			sourceTree = "<group>";
+		};
+		3E14F9102740F865002A4D39 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3E14F9112740F865002A4D39 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3E14F91B2740F865002A4D39 /* TingTingTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E14F91C2740F865002A4D39 /* TingTingTests.swift */,
+				3E14F91E2740F865002A4D39 /* Info.plist */,
+			);
+			path = TingTingTests;
+			sourceTree = "<group>";
+		};
+		3E14F9262740F865002A4D39 /* TingTingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E14F9272740F865002A4D39 /* TingTingUITests.swift */,
+				3E14F9292740F865002A4D39 /* Info.plist */,
+			);
+			path = TingTingUITests;
+			sourceTree = "<group>";
+		};
+		3E14F9352741091F002A4D39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3E3BD3A027538449009EC506 /* Voice */,
+				3E3BD39F275365B8009EC506 /* Meeting */,
+				5A41CEBD27512B080005FAB4 /* Note */,
+				3E308E09274148C5001311CA /* TabbarShape.swift */,
+				3E2402542741454800F24BF1 /* TabbarButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3E308E0D2741574D001311CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A41CEBE27512B3A0005FAB4 /* Note */,
+				3E308E1127415788001311CA /* MeetingInfo.swift */,
+				3E308E1027415788001311CA /* MeetingData.swift */,
+				3E308E182741591E001311CA /* Color+Codable.swift */,
+				3E308E192741591E001311CA /* History.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3E3BD39F275365B8009EC506 /* Meeting */ = {
+			isa = PBXGroup;
+			children = (
+				3E308E14274157A8001311CA /* CardView.swift */,
+				3E308E0B27414C8B001311CA /* MeetingView.swift */,
+				3E308E1C27415C95001311CA /* EditView.swift */,
+				3E308E16274157C8001311CA /* DetailView.swift */,
+				3ECF5AD12753D7E900599C08 /* ListView.swift */,
+			);
+			path = Meeting;
+			sourceTree = "<group>";
+		};
+		3E3BD3A027538449009EC506 /* Voice */ = {
+			isa = PBXGroup;
+			children = (
+				3E7633B7274E8BB300142B4A /* VoiceView.swift */,
+			);
+			path = Voice;
+			sourceTree = "<group>";
+		};
+		5A41CEBD27512B080005FAB4 /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				5A41CEC427512B780005FAB4 /* ItemsView.swift */,
+				5A41CEC527512B780005FAB4 /* NoteItemView.swift */,
+				5A41CEBB275119F10005FAB4 /* NoteView.swift */,
+			);
+			path = Note;
+			sourceTree = "<group>";
+		};
+		5A41CEBE27512B3A0005FAB4 /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				5A41CEBF27512B460005FAB4 /* NoteItem.swift */,
+			);
+			path = Note;
+			sourceTree = "<group>";
+		};
+		5A41CEC127512B580005FAB4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5A41CEC227512B610005FAB4 /* NoteViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E14F9062740F862002A4D39 /* TingTing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E14F92C2740F865002A4D39 /* Build configuration list for PBXNativeTarget "TingTing" */;
+			buildPhases = (
+				3E14F9032740F862002A4D39 /* Sources */,
+				3E14F9042740F862002A4D39 /* Frameworks */,
+				3E14F9052740F862002A4D39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TingTing;
+			packageProductDependencies = (
+				3E3BD39D2753493C009EC506 /* SwiftSpeech */,
+			);
+			productName = TingTing;
+			productReference = 3E14F9072740F862002A4D39 /* TingTing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E14F9172740F865002A4D39 /* TingTingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E14F92F2740F865002A4D39 /* Build configuration list for PBXNativeTarget "TingTingTests" */;
+			buildPhases = (
+				3E14F9142740F865002A4D39 /* Sources */,
+				3E14F9152740F865002A4D39 /* Frameworks */,
+				3E14F9162740F865002A4D39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E14F91A2740F865002A4D39 /* PBXTargetDependency */,
+			);
+			name = TingTingTests;
+			productName = TingTingTests;
+			productReference = 3E14F9182740F865002A4D39 /* TingTingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E14F9222740F865002A4D39 /* TingTingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E14F9322740F865002A4D39 /* Build configuration list for PBXNativeTarget "TingTingUITests" */;
+			buildPhases = (
+				3E14F91F2740F865002A4D39 /* Sources */,
+				3E14F9202740F865002A4D39 /* Frameworks */,
+				3E14F9212740F865002A4D39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E14F9252740F865002A4D39 /* PBXTargetDependency */,
+			);
+			name = TingTingUITests;
+			productName = TingTingUITests;
+			productReference = 3E14F9232740F865002A4D39 /* TingTingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E14F8FF2740F862002A4D39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3E14F9062740F862002A4D39 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					3E14F9172740F865002A4D39 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3E14F9062740F862002A4D39;
+					};
+					3E14F9222740F865002A4D39 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3E14F9062740F862002A4D39;
+					};
+				};
+			};
+			buildConfigurationList = 3E14F9022740F862002A4D39 /* Build configuration list for PBXProject "TingTing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 3E14F8FE2740F862002A4D39;
+			packageReferences = (
+				3E3BD39C2753493C009EC506 /* XCRemoteSwiftPackageReference "SwiftSpeech" */,
+			);
+			productRefGroup = 3E14F9082740F862002A4D39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E14F9062740F862002A4D39 /* TingTing */,
+				3E14F9172740F865002A4D39 /* TingTingTests */,
+				3E14F9222740F865002A4D39 /* TingTingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E14F9052740F862002A4D39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E14F9122740F865002A4D39 /* Preview Assets.xcassets in Resources */,
+				E5B02784277490A900C0FB9F /* Localizable.strings in Resources */,
+				3E14F90F2740F865002A4D39 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E14F9162740F865002A4D39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E14F9212740F865002A4D39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E14F9032740F862002A4D39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E308E1327415788001311CA /* MeetingInfo.swift in Sources */,
+				3E308E15274157A8001311CA /* CardView.swift in Sources */,
+				5A41CEC327512B610005FAB4 /* NoteViewModel.swift in Sources */,
+				3E2402552741454800F24BF1 /* TabbarButton.swift in Sources */,
+				3E308E17274157C8001311CA /* DetailView.swift in Sources */,
+				5A41CEC027512B460005FAB4 /* NoteItem.swift in Sources */,
+				5A41CEC627512B780005FAB4 /* ItemsView.swift in Sources */,
+				3E7633B8274E8BB300142B4A /* VoiceView.swift in Sources */,
+				5A41CEC727512B780005FAB4 /* NoteItemView.swift in Sources */,
+				3E308E1227415788001311CA /* MeetingData.swift in Sources */,
+				3E308E1B2741591E001311CA /* History.swift in Sources */,
+				3E308E1E27415C96001311CA /* EditView.swift in Sources */,
+				5A41CEBC275119F10005FAB4 /* NoteView.swift in Sources */,
+				3E308E0C27414C8B001311CA /* MeetingView.swift in Sources */,
+				3E308E0A274148C5001311CA /* TabbarShape.swift in Sources */,
+				3E14F90D2740F862002A4D39 /* ContentView.swift in Sources */,
+				3E308E1A2741591E001311CA /* Color+Codable.swift in Sources */,
+				3ECF5AD22753D7E900599C08 /* ListView.swift in Sources */,
+				3E14F90B2740F862002A4D39 /* TingTingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E14F9142740F865002A4D39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E14F91D2740F865002A4D39 /* TingTingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E14F91F2740F865002A4D39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E14F9282740F865002A4D39 /* TingTingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E14F91A2740F865002A4D39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E14F9062740F862002A4D39 /* TingTing */;
+			targetProxy = 3E14F9192740F865002A4D39 /* PBXContainerItemProxy */;
+		};
+		3E14F9252740F865002A4D39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E14F9062740F862002A4D39 /* TingTing */;
+			targetProxy = 3E14F9242740F865002A4D39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E5B02786277490A900C0FB9F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5B02785277490A900C0FB9F /* en */,
+				E5B02787277490C100C0FB9F /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E14F92A2740F865002A4D39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E14F92B2740F865002A4D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E14F92D2740F865002A4D39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.4;
+				DEVELOPMENT_ASSET_PATHS = "\"TingTing/Preview Content\"";
+				DEVELOPMENT_TEAM = V789BR85VV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TingTing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujiawang.TingTingFujiaWang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E14F92E2740F865002A4D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.4;
+				DEVELOPMENT_ASSET_PATHS = "\"TingTing/Preview Content\"";
+				DEVELOPMENT_TEAM = V789BR85VV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TingTing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujiawang.TingTingFujiaWang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E14F9302740F865002A4D39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TingTingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TingTingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TingTing.app/TingTing";
+			};
+			name = Debug;
+		};
+		3E14F9312740F865002A4D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TingTingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TingTingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TingTing.app/TingTing";
+			};
+			name = Release;
+		};
+		3E14F9332740F865002A4D39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TingTingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TingTingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TingTing;
+			};
+			name = Debug;
+		};
+		3E14F9342740F865002A4D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TingTingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TingTingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TingTing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E14F9022740F862002A4D39 /* Build configuration list for PBXProject "TingTing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E14F92A2740F865002A4D39 /* Debug */,
+				3E14F92B2740F865002A4D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E14F92C2740F865002A4D39 /* Build configuration list for PBXNativeTarget "TingTing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E14F92D2740F865002A4D39 /* Debug */,
+				3E14F92E2740F865002A4D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E14F92F2740F865002A4D39 /* Build configuration list for PBXNativeTarget "TingTingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E14F9302740F865002A4D39 /* Debug */,
+				3E14F9312740F865002A4D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E14F9322740F865002A4D39 /* Build configuration list for PBXNativeTarget "TingTingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E14F9332740F865002A4D39 /* Debug */,
+				3E14F9342740F865002A4D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3E3BD39C2753493C009EC506 /* XCRemoteSwiftPackageReference "SwiftSpeech" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Cay-Zhang/SwiftSpeech";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3E3BD39D2753493C009EC506 /* SwiftSpeech */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E3BD39C2753493C009EC506 /* XCRemoteSwiftPackageReference "SwiftSpeech" */;
+			productName = SwiftSpeech;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3E14F8FF2740F862002A4D39 /* Project object */;
+}

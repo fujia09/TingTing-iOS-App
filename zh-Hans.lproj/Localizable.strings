@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  TingTing
+
+  Created by fujia wang on 2021/12/23.
+  
+*/
+"Voice" = "语音";
+"Tap to Speak" = "点此处说话";
+"Region" =  "地区";
+"Settings" = "设置";
+"Cancel" = "退出";
+"Meeting" = "会议";
+"Add" = "加入";
+"Attendees" = "参加者";
+"Meeting Info" = "会议信息";
+"Meeting Title" = "会议标题";
+"Color" = "颜色";
+"New Attendee" = "新参加者";
+"Start Meeting" = "开始会议";
+"Edit" = "修改";
+"Done" = "完成";
+"Error" = "错误";
+"Please include at least one attendee" = "请包括至少一位参加者";
+"Ok" = "好";
+"Meeting Log" = "会议记录";
+"Current Attendees: " = "目前参会者: ";
+"Quick Flashcards" = "显示卡片";
+"[Title is empty]" = "[标题为空]";
